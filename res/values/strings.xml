@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">pTune</string>
+    <string name="b_std">B standard</string>
+    <string name="e_std">E standard</string>
+
+</resources>
