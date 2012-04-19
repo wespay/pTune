@@ -1,2 +1,11 @@
 Project: pTune
 Description: Android platform guitar tuner
+
+Project Details:
+
+This project was originally a capstone college project. The idea of the project was to develop something outside the standard curriculum. Android development being something not taught in the normal course work meant this project was a great solution. Being that the objective was to learn something new, the code and application design are potentially not the best. Improvements to the project will continue as time permits.
+
+
+Application Details:
+
+pTune is a guitar tuner for Android devices that allows users to switch between a predefined set of tuning schemes. The tuner assists in tuning a guitar by providing an analog gauge style display as well as the detected frequency. The user switches strings by selecting the desired note.
