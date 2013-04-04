@@ -233,13 +233,13 @@ public class Spectrum {
 	 * @return Float value that represents a more accurate peak index in a spectrum.
 	 */
 	private float quadraticPeak(int index) {
-		float α, β, γ, p, k;
+		float alpha, beta, gamma, p, k;
 		
-		α = (float)spectrum[index-1];
-		β = (float)spectrum[index];
-		γ = (float)spectrum[index+1];
+		alpha = (float)spectrum[index-1];
+		beta = (float)spectrum[index];
+		gamma = (float)spectrum[index+1];
 		
-		p = 0.5f * ((α - γ) / (α - 2*β + γ));
+		p = 0.5f * ((alpha - gamma) / (alpha - 2*beta + gamma));
 		
 		k = (float)index + p;
 		
